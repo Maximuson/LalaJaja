@@ -11,21 +11,25 @@ namespace Login
         public Form1()
         {
             InitializeComponent();
+            ArrRegList[0] = "asd";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
         string login = "0";
         string password = "0";
-        List<string> loginpisya = new List<string>();
+
+
+         List<string> ArrRegList = new List<string>();
+        
         
         
 
-        string[] logArr = { "qwerty", "1" };
-        string[] passArr = { "root", "2" };
-
+        string[] logArr = { "0", "1", "root" };
+        string[] passArr = { "0", "2", "root" };
+        
         bool  Login()
         {
             
