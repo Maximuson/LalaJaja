@@ -1,12 +1,16 @@
-let baton = document.querySelector('#divka');
-console.log(baton);
-let textbox = document.querySelector("#txt1")
-let all = document.querySelectorAll('.krasota')
-console.log(all[0], all[1])
+let baton = document.querySelector('#bttnCalculate');
+
 baton.addEventListener('click', () => {
-    baton.classList.remove('krasota')
-    textbox.textContent = "REMEZ"
+    let text1 = document.querySelector("#Lala")
+    let text2 = document.querySelector("#Jaja")
+    if(text1.value.match(/\d/)){
+   let a =  parseInt(text1.value)
+   let b = parseInt(text2.value)
+   console.log(a+ b);
+    }
+else alert("error");
+    
 
 })
 
-console.log(textbox)
+
