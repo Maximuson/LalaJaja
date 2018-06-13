@@ -1,0 +1,27 @@
+.disain{
+    min-width: 150px;
+    padding: 30px;
+    margin: 33.3333334%;
+    margin-top: 7%;
+    border: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: rgb(214, 19, 221);
+}
+.dlaNOPKIK{
+    margin-left: 40%;
+    margin-top: 2%;
+    border-color: cornflowerblue;
+    border-radius: 30px;
+    background-color: chartreuse;
+}
+.dlaInput{
+    margin-left: 2%;
+}
+.aler{
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
